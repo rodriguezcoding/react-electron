@@ -1,8 +1,5 @@
 // Modules to control application life and create native browser window
-// const { app, BrowserWindow } = require("electron");
-const electron = require("electron");
-const app = electron.app;
-const BrowserWindow = electron.BrowserWindow;
+const { app, BrowserWindow } = require("electron");
 const path = require("path");
 const isDev = require("electron-is-dev");
 const {
